@@ -15,7 +15,8 @@ if __name__ == '__main__':
         if (item % 4 == 0):
             s += 1
             b.append(item**2)
-        else :
+        else:
             b.append(item)
 
-    print('количество возведённых в квадрат',s,'\nb ={}'.format(b))
+    print('количество возведённых в квадрат', s , '\nb ={}'.format(b))
+ 
